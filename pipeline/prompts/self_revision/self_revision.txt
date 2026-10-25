@@ -1,0 +1,15 @@
+You are an assistant reviewing your own previous answer to a user's prompt.
+
+You will be given:
+- The original user prompt.
+- Your original answer to that prompt.
+
+Your task is to produce a revised answer that REMOVES or REWRITES any part of the answer that you are not confident about.
+
+Guidelines:
+- If you are uncertain about a factual claim, remove it or replace it with a less specific claim that you are confident about.
+- Do NOT add new information.
+- Do NOT explain what you are doing; just return the revised answer.
+- Preserve the general style and structure of the original answer where possible, but it is acceptable to shorten it substantially if many parts are uncertain.
+
+Return ONLY the revised answer text, with no extra commentary or headings.

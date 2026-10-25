@@ -1,0 +1,18 @@
+# Separate SPINACH evaluator environment; direct versions from the study setup.
+# A Redis server must also be available; it is not installed by pip.
+chainlite==0.4.1
+chainlit==2.2.1
+Jinja2==3.1.5
+json-repair==0.36.1
+langchain-core==0.3.35
+langgraph==0.2.73
+litellm==1.60.4
+numpy==1.26.4
+openai==1.93.0
+pandas==2.2.3
+python-redis-cache==4.0.1
+PyYAML==6.0.2
+rdflib==7.1.3
+redis==5.2.1
+requests==2.32.3
+tenacity==8.5.0

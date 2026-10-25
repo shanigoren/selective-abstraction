@@ -1,0 +1,2 @@
+Respond to the following question shortly. answer with text only, no tables.
+Question: {entity}

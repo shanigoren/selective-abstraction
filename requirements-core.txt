@@ -1,0 +1,3 @@
+# Generation client only. Run a model server in a separate environment.
+openai==1.103.0
+tqdm==4.67.1

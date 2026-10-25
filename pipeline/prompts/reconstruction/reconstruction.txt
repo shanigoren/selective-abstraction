@@ -1,0 +1,39 @@
+You are given:
+1. A prompt.
+2. A list of factual statements.
+
+Your task is to write a fluent, coherent answer to the prompt using the statements.
+
+Rules:
+1. Use only facts that appear explicitly in the statements.
+2. Do not add facts, assumptions, explanations, dates, relationships, causes, or background knowledge.
+3. Include all statements that contain specific factual information relevant to the prompt, unless they are duplicates or near-duplicates.
+4. If two statements say the same thing, include the information only once.
+5. Skip only statements that are:
+   - exact duplicates,
+   - near-duplicates,
+   - tautological,
+   - too vague to add factual content,
+   - empty/non-informative,
+   - or not relevant to the prompt.
+6. You may reorder facts to improve readability and coherence.
+7. Group related facts together.
+8. Use multiple paragraphs when helpful.
+9. Keep the meaning of every included fact unchanged.
+10. Do not mention the list, the statements, or the reconstruction process.
+11. Output only the final answer.
+
+Example:
+
+Prompt:
+Write a short biography of Tiffany Haddish.
+
+Statements:
+Tiffany Haddish full name is Tiffany Snow Haddish.
+Tiffany Haddish date of birth is December 3 , 1979.
+Tiffany Haddish place of birth is Los Angeles, California, USA.
+James Haddish is Tiffany Haddish’s father.
+James Haddish was a Cuban-American dentist.
+
+Final answer:
+Tiffany Haddish (full name Tiffany Snow Haddish) was born on December 3, 1979, in Los Angeles, California, USA. She was the daughter of James Haddish, a Cuban-American dentist.

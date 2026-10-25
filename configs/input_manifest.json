@@ -1,0 +1,477 @@
+{
+  "factscore": {
+    "count": 183,
+    "normalized_sha256": "3e6cb69444cbe6621d155e4d65ef78498cb3803fe7899b911b7487bdd5768a7e",
+    "upstream_repository": "https://github.com/shmsw25/FActScore",
+    "upstream_revision": "f28272deffcf33efc1f1117d5479c10bb75221a9",
+    "upstream_path": "data/labeled/prompt_entities.txt",
+    "access_url": "https://drive.google.com/drive/folders/1kFey69z8hGXScln01mVxrOhrqgM62X7I",
+    "access_note": "The labeled prompt_entities.txt is distributed in the official benchmark data download, not as a file in the Git repository. Supply it with --factscore-entities. The normalized content hash binds the paper cohort."
+  },
+  "longfact": {
+    "count": 76,
+    "selection": [
+      {
+        "id": "20th-century-events_16",
+        "subject": "20th-century-events",
+        "index": 16,
+        "prompt_sha256": "272d8c3ce136f86f2d6af387749f1bd880fa52e9409f167023c49e5ddfcd0aa3"
+      },
+      {
+        "id": "20th-century-events_12",
+        "subject": "20th-century-events",
+        "index": 12,
+        "prompt_sha256": "3c3c9c135f98050b5c2a51e7347f7227e86ec843b3fd330327ea7902a872994b"
+      },
+      {
+        "id": "US-foreign-policy_22",
+        "subject": "US-foreign-policy",
+        "index": 22,
+        "prompt_sha256": "3c491d64ee028512c93b9e9617d6a2cb0578f72d8bb71ed28abb75ab5806a2f5"
+      },
+      {
+        "id": "US-foreign-policy_8",
+        "subject": "US-foreign-policy",
+        "index": 8,
+        "prompt_sha256": "91a43f170640a48537d5d2a3d4b8830cde6d03b8954351bf72fde597fb0bcab5"
+      },
+      {
+        "id": "accounting_5",
+        "subject": "accounting",
+        "index": 5,
+        "prompt_sha256": "29f52c1e9536c0b2a70c25a26ed6f748eb2a58f02a020b306afddb25cf712c26"
+      },
+      {
+        "id": "accounting_2",
+        "subject": "accounting",
+        "index": 2,
+        "prompt_sha256": "d51660250df1c56ec339cd9d8e374ca223e3cab7e1216d7945efa18f1928bb3b"
+      },
+      {
+        "id": "architecture_2",
+        "subject": "architecture",
+        "index": 2,
+        "prompt_sha256": "c87ba8f7527288470f9a87e653842f943ebcab1af4840a3bdfcfa6eaf824e824"
+      },
+      {
+        "id": "architecture_25",
+        "subject": "architecture",
+        "index": 25,
+        "prompt_sha256": "fed9115188a3bc0b242de528892518612c187e1124079a085927fff1beb60ffc"
+      },
+      {
+        "id": "astronomy_7",
+        "subject": "astronomy",
+        "index": 7,
+        "prompt_sha256": "74f68bd6dd23aa3f45a264e154f2283df930a6b314cc0c0f2f0315f46c044b89"
+      },
+      {
+        "id": "astronomy_19",
+        "subject": "astronomy",
+        "index": 19,
+        "prompt_sha256": "1fd5167e73431865ad63f9e3c9019a49e6e57c5e8ee908ea02aaf3d025cc6e17"
+      },
+      {
+        "id": "biology_25",
+        "subject": "biology",
+        "index": 25,
+        "prompt_sha256": "56cfd1bf1daeb87143f5e0bb8267a835c6e75240280a840123258f4c71c9ad22"
+      },
+      {
+        "id": "biology_23",
+        "subject": "biology",
+        "index": 23,
+        "prompt_sha256": "e1f51e6a87b51952888b7230a743d48c72500e86971ba7a19a1291695ce29bd4"
+      },
+      {
+        "id": "business-ethics_22",
+        "subject": "business-ethics",
+        "index": 22,
+        "prompt_sha256": "c822616547babcb036b8f3a22a058b60ff73260f1b2691cba05bc5b5473dbe71"
+      },
+      {
+        "id": "business-ethics_7",
+        "subject": "business-ethics",
+        "index": 7,
+        "prompt_sha256": "139d3721849c8ccb485b57463c48660d6c5a60c4bd8732814eb74a70591a6fe7"
+      },
+      {
+        "id": "celebrities_24",
+        "subject": "celebrities",
+        "index": 24,
+        "prompt_sha256": "32bba7eaf4e366dfab14df3b9debdc7624781b731a588e33de51d52329388f58"
+      },
+      {
+        "id": "celebrities_10",
+        "subject": "celebrities",
+        "index": 10,
+        "prompt_sha256": "f088414c62936291fe9bd4b3cd118c6810f2b508d9f11b2cb4ef4616eb507820"
+      },
+      {
+        "id": "chemistry_28",
+        "subject": "chemistry",
+        "index": 28,
+        "prompt_sha256": "a81baa7b287c01f4ac7610f67da724239414631a2cd7139043bcadd5b5046589"
+      },
+      {
+        "id": "chemistry_11",
+        "subject": "chemistry",
+        "index": 11,
+        "prompt_sha256": "e82c748245a03ff4e93e5e869035a550f5e41035162851573f989d721f305022"
+      },
+      {
+        "id": "clinical-knowledge_14",
+        "subject": "clinical-knowledge",
+        "index": 14,
+        "prompt_sha256": "7e02af08e4c214c4fa66a03cdb84460f6dc10c648fd036a017f01612fd99b31e"
+      },
+      {
+        "id": "clinical-knowledge_19",
+        "subject": "clinical-knowledge",
+        "index": 19,
+        "prompt_sha256": "96c1e017dae60c523acfe0a61da2cee7807c71c1f8565addc6bb3c52863ed094"
+      },
+      {
+        "id": "computer-science_12",
+        "subject": "computer-science",
+        "index": 12,
+        "prompt_sha256": "4087c60de0dc1e74c14fd779c572d4a955f5c0b99a4de633ea4ca5c135fca327"
+      },
+      {
+        "id": "computer-science_24",
+        "subject": "computer-science",
+        "index": 24,
+        "prompt_sha256": "67877a8107ebadf8b9cf31682a0e1c51deb1fca46de9d13ed4dc2b387d182129"
+      },
+      {
+        "id": "computer-security_10",
+        "subject": "computer-security",
+        "index": 10,
+        "prompt_sha256": "ee0dc10ada249b02f3a251041c8c6538019c74cb62c08accbed72c6cd6dcba75"
+      },
+      {
+        "id": "computer-security_4",
+        "subject": "computer-security",
+        "index": 4,
+        "prompt_sha256": "e0ce4d4d040aa9dca3fd027aea408844e6d1d6b4c547bf60ec7a669cfcb1ec37"
+      },
+      {
+        "id": "economics_2",
+        "subject": "economics",
+        "index": 2,
+        "prompt_sha256": "042fd8c8accbd40eaa64df282c529efeb5072d5d4e059158028e2c429875e709"
+      },
+      {
+        "id": "economics_6",
+        "subject": "economics",
+        "index": 6,
+        "prompt_sha256": "0dfd346314522bb254e4d875fb72f07eff3c495012c88878ccf7e61637e05050"
+      },
+      {
+        "id": "electrical-engineering_23",
+        "subject": "electrical-engineering",
+        "index": 23,
+        "prompt_sha256": "6023cc54f130e2e3c868e9e24e96f9aa4670f5d2d1fb4d1938f585393c5ec503"
+      },
+      {
+        "id": "electrical-engineering_20",
+        "subject": "electrical-engineering",
+        "index": 20,
+        "prompt_sha256": "c67e06a900187e374f1e259d0f7654621ba472a799b2973c79de98b8420e039d"
+      },
+      {
+        "id": "gaming_28",
+        "subject": "gaming",
+        "index": 28,
+        "prompt_sha256": "c1136579aa2e59616744204ecac65cba9264a607a2490865d7cb03b39401f66c"
+      },
+      {
+        "id": "gaming_14",
+        "subject": "gaming",
+        "index": 14,
+        "prompt_sha256": "7676114735d57d5e302d17c821e95d001b6de17bb05998f23f97f98522a8d7cf"
+      },
+      {
+        "id": "geography_12",
+        "subject": "geography",
+        "index": 12,
+        "prompt_sha256": "8b55fbeb03c228c830505131cbfc0ff1e288f0e1962eb5a51ede49f6a3b95941"
+      },
+      {
+        "id": "geography_1",
+        "subject": "geography",
+        "index": 1,
+        "prompt_sha256": "05544258d587d57c144fe9d82a035b2edb1712f05bbe4fa5d259cc5aef2d5c9d"
+      },
+      {
+        "id": "global-facts_20",
+        "subject": "global-facts",
+        "index": 20,
+        "prompt_sha256": "ebc66db106e67e13092de598114f7fa13472756c4377056726fcec1e3b0962b4"
+      },
+      {
+        "id": "global-facts_26",
+        "subject": "global-facts",
+        "index": 26,
+        "prompt_sha256": "45761824e179298c8069e34e47197122f924b490556491540dfee1158e3fd39d"
+      },
+      {
+        "id": "history_23",
+        "subject": "history",
+        "index": 23,
+        "prompt_sha256": "f54b6ce3dbba979a15267864ecf5ca2fc833a932898aba69644bd6556269b278"
+      },
+      {
+        "id": "history_9",
+        "subject": "history",
+        "index": 9,
+        "prompt_sha256": "376a90868b843aae394075443fd3e28cd9e23840cd7805e7e88650508d87ba12"
+      },
+      {
+        "id": "immigration-law_14",
+        "subject": "immigration-law",
+        "index": 14,
+        "prompt_sha256": "af54f24239ccfd79c40a2289cc4d54f6b064ca64cc3f62740aecb01f3e240ad4"
+      },
+      {
+        "id": "immigration-law_9",
+        "subject": "immigration-law",
+        "index": 9,
+        "prompt_sha256": "0834b520134c3748b2f24791cea12e96c3ec6b7d00793696022e09545eca07a0"
+      },
+      {
+        "id": "international-law_22",
+        "subject": "international-law",
+        "index": 22,
+        "prompt_sha256": "5aef819fe2865c10a34accd3cff43023ae0c6e6e7c349d7cd1539ba8aff48fcd"
+      },
+      {
+        "id": "international-law_18",
+        "subject": "international-law",
+        "index": 18,
+        "prompt_sha256": "38cf59baf6ecdbbbd8991b0ff8f7d3430b3fa667600161fde507633aacde13f0"
+      },
+      {
+        "id": "jurisprudence_25",
+        "subject": "jurisprudence",
+        "index": 25,
+        "prompt_sha256": "db6e4e82896e1806390755820666526756b0dd7828adfdb4e79dd307b16795f5"
+      },
+      {
+        "id": "jurisprudence_28",
+        "subject": "jurisprudence",
+        "index": 28,
+        "prompt_sha256": "4a0123027d62559f5675894b2107ffedd92329bde970f80d915c1b3f532b9029"
+      },
+      {
+        "id": "machine-learning_24",
+        "subject": "machine-learning",
+        "index": 24,
+        "prompt_sha256": "eb83ec5fa7bd05c74faa7af723a134463a8d7b8b822bbdcd67f3086e2cd28032"
+      },
+      {
+        "id": "machine-learning_5",
+        "subject": "machine-learning",
+        "index": 5,
+        "prompt_sha256": "6bba472d22c1f7ee4dcaadc1fae6daaa81ec2bc3cf504c575e5f48ab8ca25ba7"
+      },
+      {
+        "id": "management_7",
+        "subject": "management",
+        "index": 7,
+        "prompt_sha256": "81fde43a24eaa76be2dd434470c569992f7aa4103de258fff6c006a9951c4219"
+      },
+      {
+        "id": "management_17",
+        "subject": "management",
+        "index": 17,
+        "prompt_sha256": "cf6685830647ae3e70b945c1183a1d69b2e5b3b266b1337e97b182f029e1d9e8"
+      },
+      {
+        "id": "marketing_14",
+        "subject": "marketing",
+        "index": 14,
+        "prompt_sha256": "85db0436a49c5a6574a721140b13fcc74aa885af6dbca910949e344197da5b8e"
+      },
+      {
+        "id": "marketing_10",
+        "subject": "marketing",
+        "index": 10,
+        "prompt_sha256": "63d33d44a52548ce89f0fde617b2e10d6f1d9af1643aa1fbed6fe088431b5dae"
+      },
+      {
+        "id": "mathematics_17",
+        "subject": "mathematics",
+        "index": 17,
+        "prompt_sha256": "8d8c4c271eb995a659c864c56bab0ab01caff9ba97fa061b50dde26a7dc77817"
+      },
+      {
+        "id": "mathematics_13",
+        "subject": "mathematics",
+        "index": 13,
+        "prompt_sha256": "cd371cc3d75323adc8b5f284841d6d166bb2606d6ab485d58a3727a681108808"
+      },
+      {
+        "id": "medicine_27",
+        "subject": "medicine",
+        "index": 27,
+        "prompt_sha256": "84dcb0464930e39b33c4e05fa7f9c92a095fdb850f4261d6b11a3a8b6e33c57f"
+      },
+      {
+        "id": "medicine_1",
+        "subject": "medicine",
+        "index": 1,
+        "prompt_sha256": "9e9b4d9e5529f5f21276999f6f2190820acb9727aeccccf2aa274ca0642063f5"
+      },
+      {
+        "id": "moral-disputes_3",
+        "subject": "moral-disputes",
+        "index": 3,
+        "prompt_sha256": "a4fedeb9c9718a7ffdbb2a78c8f23ab829aa4fbe06c07e7fd5c7f275f968c038"
+      },
+      {
+        "id": "moral-disputes_19",
+        "subject": "moral-disputes",
+        "index": 19,
+        "prompt_sha256": "cb9006eee42cb0699ae70bc582da7dcc1644ce47a5d29c8cb910e990d41d69ae"
+      },
+      {
+        "id": "movies_7",
+        "subject": "movies",
+        "index": 7,
+        "prompt_sha256": "7867caed6cf41d46ce442605c94400c40deadbe6782d91d2c50de61e89ac0843"
+      },
+      {
+        "id": "movies_29",
+        "subject": "movies",
+        "index": 29,
+        "prompt_sha256": "6a3060ebb8950b51a1a1fe6e99fa2751c9d5d8a1048a055f883254e769d996ad"
+      },
+      {
+        "id": "music_3",
+        "subject": "music",
+        "index": 3,
+        "prompt_sha256": "b96b7ef7d8c8eb142571775ad3d53a4374ddd89bce67640184502121d3f267b5"
+      },
+      {
+        "id": "music_10",
+        "subject": "music",
+        "index": 10,
+        "prompt_sha256": "d27b72898e7e506481849d70e58f4ddd413c286421d00f74fb78cd4971991eed"
+      },
+      {
+        "id": "philosophy_4",
+        "subject": "philosophy",
+        "index": 4,
+        "prompt_sha256": "bc39e94b5b63525724a4774e20949bcbe096820d8081d15bab4f962d1442169a"
+      },
+      {
+        "id": "philosophy_3",
+        "subject": "philosophy",
+        "index": 3,
+        "prompt_sha256": "3e5e1c58a0503ad53ae860dab0573bfdea3b3b9feda5fb5cce4b2ff20e0e22aa"
+      },
+      {
+        "id": "physics_27",
+        "subject": "physics",
+        "index": 27,
+        "prompt_sha256": "c9d1b25c392052a8ee58524b436d2520cf76896714a703a1f795dbb8386264ba"
+      },
+      {
+        "id": "physics_28",
+        "subject": "physics",
+        "index": 28,
+        "prompt_sha256": "24bce024556c88265a2d0723d7c585adf1611cb7b56d1019770a488d3bea9e94"
+      },
+      {
+        "id": "prehistory_7",
+        "subject": "prehistory",
+        "index": 7,
+        "prompt_sha256": "9c5656ed11aafe513239dd3b510c4f226c02af3610aedb759018ea5b2029462d"
+      },
+      {
+        "id": "prehistory_5",
+        "subject": "prehistory",
+        "index": 5,
+        "prompt_sha256": "bfbadb2186758c4e98926700090dfe459445b63da039e3bb8c3d303432b54864"
+      },
+      {
+        "id": "psychology_3",
+        "subject": "psychology",
+        "index": 3,
+        "prompt_sha256": "a148e533f37704f4f094547973c11e48487d89c8a9ecff340777321229cf8036"
+      },
+      {
+        "id": "psychology_11",
+        "subject": "psychology",
+        "index": 11,
+        "prompt_sha256": "868aff5e3cb94c79fc2817513e7e4cfb39b6171a80a81247bff6e58fafd66956"
+      },
+      {
+        "id": "public-relations_18",
+        "subject": "public-relations",
+        "index": 18,
+        "prompt_sha256": "d7c591ac11acd8fab6bc06f0e4d4efa3e6d2da6947b78537657239d3ba857382"
+      },
+      {
+        "id": "public-relations_24",
+        "subject": "public-relations",
+        "index": 24,
+        "prompt_sha256": "5f8320abd47e2e4caf24179d39296cfdf5cff7dcad8d3688b2c09c0c66fb17e4"
+      },
+      {
+        "id": "sociology_16",
+        "subject": "sociology",
+        "index": 16,
+        "prompt_sha256": "a3390ec22a3c3fcce4211cab6d2e6acfa26f21caf5f0749a10c40c094de4cafd"
+      },
+      {
+        "id": "sociology_20",
+        "subject": "sociology",
+        "index": 20,
+        "prompt_sha256": "12829189116381182b28f4dc89b6b05f8f6469afca2ad73171a95e2f9f03a23b"
+      },
+      {
+        "id": "sports_5",
+        "subject": "sports",
+        "index": 5,
+        "prompt_sha256": "6ba8d0479288d4f1bde2a61a12e54bddfa0f9fe29f73815d8ba4cb4da520c2cd"
+      },
+      {
+        "id": "sports_16",
+        "subject": "sports",
+        "index": 16,
+        "prompt_sha256": "cb00f9405a7a274d7f480f670b827dce62312f82995e9e49e2298c564b21dc1c"
+      },
+      {
+        "id": "virology_8",
+        "subject": "virology",
+        "index": 8,
+        "prompt_sha256": "a67df1a4467dc45168eb281071974f2ca6b80100bfc1a885b4480ae1e7fee8a7"
+      },
+      {
+        "id": "virology_1",
+        "subject": "virology",
+        "index": 1,
+        "prompt_sha256": "f33a8c623c5688171cb360819da9f2302cffe41094c19c46cdb4f4c1ac0e4b5f"
+      },
+      {
+        "id": "world-religions_21",
+        "subject": "world-religions",
+        "index": 21,
+        "prompt_sha256": "4a88292cd95e85225e92d4b8b268f0cdc7b7aa312c41a464d086cea9111bb47f"
+      },
+      {
+        "id": "world-religions_14",
+        "subject": "world-religions",
+        "index": 14,
+        "prompt_sha256": "a0e1985ce9f70edc11eff29596b4db9789bcbc23adcf3ae61044891f87067fbc"
+      }
+    ],
+    "upstream_repository": "https://github.com/google-deepmind/long-form-factuality",
+    "upstream_revision": "9d27158d198ced0a9d8271a80147cae580614601",
+    "upstream_path": "longfact/longfact-objects_gpt4_01-12-2024_noduplicates"
+  },
+  "schema_version": 1,
+  "description": "Exact paper input selection; contains IDs and hashes, no generated responses or evaluation results."
+}

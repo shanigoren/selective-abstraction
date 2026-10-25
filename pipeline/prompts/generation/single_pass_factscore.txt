@@ -1,0 +1,2 @@
+You will be given a question. Answer the question at a level of granularity that fits your uncertainty.
+Question: Tell me a bio of {entity}.

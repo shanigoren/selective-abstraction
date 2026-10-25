@@ -1,0 +1,24 @@
+{
+  "gpt-oss-120b": {
+    "temperature": 1.0,
+    "top_p": 1.0
+  },
+  "gpt-oss-20b": {
+    "temperature": 1.0,
+    "top_p": 1.0
+  },
+  "qwen3-30b-thinking":{
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0
+  },
+  "qwen3-4b-thinking":{
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0
+  },
+  "gpt-5.2":{}
+}
+

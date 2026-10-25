@@ -1,0 +1,82 @@
+# Task
+
+You are given a prompt and a numbered list of factual statements. Write a fluent, coherent text that responds to the prompt using the statements.
+
+# Rules
+
+1. Use only facts that appear explicitly in the statements.
+2. Do not add facts, assumptions, explanations, dates, relationships, causes, or background knowledge.
+3. Include every statement that contains specific factual information, even if it seems only loosely related to the prompt. The prompt sets the topic, but the statements decide what to include.
+4. If two statements say the same thing, include the information only once.
+5. Skip only statements that are exact duplicates, near-duplicates, tautological, too vague to add factual content, or empty/non-informative.
+6. If the statements describe more than one subject that shares a name, include all of them, not only the most prominent one.
+7. You may reorder facts, group related ones together, and use multiple paragraphs.
+8. Keep the meaning of every included fact unchanged.
+9. Do not mention the list, the statements, or the reconstruction process.
+10. Output only the final text.
+
+# Important
+
+- Do not leave a statement out because it seems minor, tangential, or only loosely connected to the prompt. Keep the information from every statement that has specific content; a longer text that keeps more of the statements is better than a shorter one that leaves some out.
+- Write in flowing, connected sentences. Combine several related statements into each sentence and vary your sentence structure, rather than giving each statement its own short sentence. The text should read like a natural passage, not a list of facts.
+
+# Examples
+
+## Example 1
+
+Prompt:
+Write a short biography of Helena Marsh.
+
+Statements (4 total):
+1. Helena Marsh was born on June 2, 1965.
+2. Helena Marsh was born in Bristol, England.
+3. Helena Marsh is a marine biologist.
+4. Helena Marsh discovered the Marsh coral species.
+
+Final text:
+Helena Marsh, a marine biologist, was born on June 2, 1965, in Bristol, England. She discovered the Marsh coral species.
+
+## Example 2
+
+Prompt:
+Tell me about Dalton Reeve.
+
+Statements (5 total):
+1. Dalton Reeve refers to more than one person.
+2. Dalton Reeve (the composer) was German.
+3. Dalton Reeve (the composer) wrote the opera Nachtwind.
+4. Dalton Reeve (the chemist) was Canadian.
+5. Dalton Reeve (the chemist) developed a method for purifying tin.
+
+Final text:
+Dalton Reeve refers to more than one person. One Dalton Reeve was a German composer who wrote the opera Nachtwind. Another Dalton Reeve was a Canadian chemist who developed a method for purifying tin.
+
+## Example 3
+
+Prompt:
+Write a biography of Cassian Mereu.
+
+Statements (18 total):
+1. Cassian Mereu was born on March 14, 1948.
+2. Cassian Mereu was born in Sassari, on the island of Sardinia.
+3. Cassian Mereu's father, Renzo Mereu, was a shipwright.
+4. Cassian Mereu's mother, Filomena Mereu, taught primary school.
+5. Cassian Mereu studied civil engineering at the University of Genoa.
+6. Cassian Mereu graduated in 1971.
+7. Cassian Mereu joined the firm Ardittiu and Sons in 1972.
+8. Cassian Mereu specialized in bridge design.
+9. Cassian Mereu led the design of the Tirso Viaduct.
+10. The Tirso Viaduct opened in 1983.
+11. The Tirso Viaduct was the longest concrete span in Sardinia at the time.
+12. Cassian Mereu received the Gold Compass award in 1985.
+13. The Gold Compass award is given for engineering achievement.
+14. Cassian Mereu founded his own studio, Mereu Associati, in 1990.
+15. Cassian Mereu taught structural engineering at the Polytechnic of Turin.
+16. Cassian Mereu retired from teaching in 2014.
+17. Cassian Mereu was married to the architect Lucia Paglietti.
+18. Lucia Paglietti designed the Cagliari Maritime Terminal.
+
+Final text:
+Cassian Mereu was born on March 14, 1948, in Sassari, on the island of Sardinia, to Renzo Mereu, a shipwright, and Filomena Mereu, who taught primary school. He studied civil engineering at the University of Genoa, graduating in 1971, and the following year joined the firm Ardittiu and Sons, where he specialized in bridge design. His best-known work there was the Tirso Viaduct: he led its design, and when it opened in 1983 it was the longest concrete span in Sardinia at the time. The project brought him the Gold Compass award, given for engineering achievement, in 1985.
+
+In 1990 Mereu founded his own studio, Mereu Associati, and alongside his practice he taught structural engineering at the Polytechnic of Turin until he retired from teaching in 2014. He was married to the architect Lucia Paglietti, who designed the Cagliari Maritime Terminal.

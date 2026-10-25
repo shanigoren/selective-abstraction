@@ -1,0 +1,16 @@
+prompt_dirs:
+  - "./spinach_agent/prompts"
+
+litellm_set_verbose: true
+
+prompt_logging:
+  log_file: "./prompt_logs.jsonl"
+  prompts_to_skip: []
+
+# The CLI can override this URL with --model_base_url or SA_MODEL_BASE_URL.
+# ChainLite resolves VLLM_API_KEY from the environment; no key file is read.
+llm_endpoints:
+  - api_base: http://127.0.0.1:8000/v1
+    api_key: VLLM_API_KEY
+    engine_map:
+      gpt-oss-120b: hosted_vllm/gpt-oss-120b
